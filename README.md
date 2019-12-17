@@ -1,0 +1,3 @@
+# CareerFoundry-Web-Design-Project
+Web Page Project for Career Foundry Online Course...
+This was one of my first projects as a Web Designer. It took us through Bootstrap, jQuery, and a few other neat tricks.  
