@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(216, 216, 216);
+    
+}
+
+.info {
+    background-color: rgb(151, 151, 151);
+    margin: auto;
+}
+
+.container-two div, ul {
+    list-style-type: none;
+}
+
+div.list-border {
+    border-style: solid;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+
+
+/*Typography*/
+
+.container-two{
+    text-align: center;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-border a:hover{
+    text-decoration: none;
+    color: beige;
+}
+
+
+

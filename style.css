@@ -1,0 +1,226 @@
+.jumbotron{
+    background-image: url(../img/landscape.jpg);
+    background-size: cover;
+}
+
+p.color {
+    color: rgb(250, 244, 233);
+}
+/* ABOUT PAGE */
+
+/* UNIVERSAL */
+
+
+/*Local / Uniques(*/
+.header{
+    background:linear-gradient(60deg,hsl(39, 97%, 72%), hsl(0,60%,70%));
+    color: black;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.container-three{
+    margin: 0 auto;
+    padding: 0;    
+}
+
+.anchor {
+    padding-top: 50px;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: center;
+    color: hsl(240, 81%, 64%);
+}
+
+.container-three .image {
+    float: left;
+}
+
+
+.container-three .column {
+    float: left;
+    width: 30%;
+    padding: 0 20px;
+}
+
+.container-three .main-text {
+    clear: both;
+    padding-top: 60px;
+}
+
+.container-three .resolveImage {
+    width: 100%;
+}
+
+.resolveImage img{
+    border: 10px solid grey;
+    border-radius: 20%;
+}
+
+.container-three #skill-list{
+    margin-left: 50px;
+}
+
+/*Typography*/
+
+.header h1, .container-three h1 h2 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-three p li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    -webkit-margin-before: 0em;
+}
+
+.skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+} 
+
+/*CONTACT PAGE*/
+.container-fluid{
+    padding: 0;
+}
+
+img.bg-image{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    filter: blur(30px);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.container-two{
+    text-align: center;   
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* background: url('../img/linkedin\ photo.png') no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 70%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+div.list-border {
+    border: solid hsl(35,80%,70%);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    bottom: -1500px;
+}
+
+.container-two ul li h4{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container-two div#listOne {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.container-two div#listTwo {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.container-two ul{
+    list-style-type: none;
+}
+
+/*Typography*/
+
+.container-two h2{
+    margin: 0;
+}
+
+.list-border a{
+    color: hsl(35,80%,70%);
+}
+
+.list-border a:hover{
+    text-decoration: none;
+    color: beige;
+}
+
+
+/*ACCORDION*/
+
+.container-four{
+    border: 5px solid rgba(209, 209, 209, 0.541);
+    border-radius: 10px;
+    padding: 0;
+    background: rgb(231, 171, 114);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container-four a{
+    text-decoration: none;
+    /* margin-bottom: 10px; */
+}
+.container-four a:hover{
+    color: rgb(231, 171, 114);
+}
+
+div#collapseOne, div#collapseTwo, div#collapseThree {
+    background: rgba(231, 171, 114, 0.3);
+}
+
+/*NAVBAR*/
+
+#nav-color{
+    background: rgba(231, 171, 114, 0.6);
+
+}
+
+
+/*Uni Devices
+
+Allows for specific code on specific devices using 
+@media.... see a reference!
+*/
+
+/*Work Page*/
+
+div.space{
+    margin: 5px 0px 0px 0px;
+    
+}
+
+div.space img{
+    border:5px rgb(231, 171, 114) solid;
+    border-radius: 10px;
+}
